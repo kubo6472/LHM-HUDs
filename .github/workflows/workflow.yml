@@ -1,9 +1,9 @@
-name: Prestige
+name: build
 on:
   push:
     branches: [ prestige ]
 jobs:
-  prestige:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
